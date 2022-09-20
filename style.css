@@ -1,30 +1,23 @@
 a{
     margin: 10px;
+
 }
 
-.título{
-    font-size: 40px;
+.titulo{
+    font-size: 60px;
     position:fixed;
-    height: 300px;
     left: 30%;
-    background-color:#FFFFFF;
-    text-shadow: 5px 5px 5px red;
-    
+    background-color:#000000;
+    text-shadow: 5px 5px 5px rgb(12, 12, 12);
+
 }
 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 8);
     font-family: 'Times New Roman', Times, serif;
     color: black;
-}
 
-header .container{
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; 
 }
 
 .capas{
@@ -32,12 +25,12 @@ header .container{
     width: 150%;
     display: grid;
     flex-direction: row;
+
 }
 
 .imagem{
     position:fixed;
-    width: 100px;
-    height:100px;
-    left:40%;
-    top: 200px;
+    left:35%;
+    top: 30%;
+
 }
