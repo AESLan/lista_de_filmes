@@ -1,12 +1,13 @@
 a{
     margin: 10px;
+    
 
 }
 
 .titulo{
     font-size: 60px;
     position:fixed;
-    left: 30%;
+    left: 25%;
     background-color:#000000;
     text-shadow: 5px 5px 5px rgb(12, 12, 12);
 
@@ -19,12 +20,18 @@ body{
 
 }
 
-.capas{
-    height: 150%;
-    width: 150%;
-    display: grid;
-    flex-direction: row;
+.capas-esquerda{
+    display: flex;
+    flex-direction: column;
 
+}
+
+.capas-direita {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse; 
+    justify-content: flex-end;
+   
 }
 
 .imagem{
