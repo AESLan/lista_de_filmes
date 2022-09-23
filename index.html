@@ -8,6 +8,7 @@
     <title>Lista de filmes</title>
     <h2 class="titulo"><a href="#">Dicas de Filmes e séries</a></h2>
     <script type="text/javascript" src="js/main.js"></script>
+    
 </head>
 <body>
         
@@ -34,13 +35,31 @@
         </nav>
     </div>
 
-    <section>
-        <div>
-            
-            
-        </div>
+    <form class="formulario" method="POST">
+        <p>Envie uma mensagem ou sugestão preenchendo o formulário abaixo</p>
+    <div class="field">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+    </div>
 
-    </section>
+    <div class="field">
+        <label for="telefone">Seu telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone">
+    </div> 
+
+    <div class="field">
+        <label for="email">Seu e-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Digite seu e-mail*" required>
+    </div>
+
+    <div class="field">
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem*" required></textarea>
+    </div>
+
+    <input type="submit" name="acao" value="Enviar">
+        </form>
+
 
 </body>
 

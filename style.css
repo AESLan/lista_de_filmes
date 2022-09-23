@@ -26,17 +26,21 @@ body{
 
 }
 
-.capas-direita {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse; 
-    justify-content: flex-end;
-   
-}
-
 .imagem{
     position:fixed;
     left:35%;
     top: 30%;
 
+}
+
+.formulario{
+    position: absolute row;
+    width: 250px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+
+.formulario p{
+    color: azure;
+    left: 40%;
 }
