@@ -1,1 +1,1 @@
-alert("Atenção! Você está acessando uma página com apenas dicas de filmes e séries, todo o conteúdo é de propriedade autoral e não pode ser reproduzido ou veículado por sites de terceiros.");
+//alert("Atenção! Você está acessando uma página com apenas dicas de filmes e séries, todo o conteúdo é de propriedade autoral e não pode ser reproduzido ou veículado por sites de terceiros.");

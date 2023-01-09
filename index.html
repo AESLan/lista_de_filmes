@@ -1,63 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Lista de filmes</title>
-    <h2 class="titulo"><a href="#">Dicas de Filmes e séries</a></h2>
     <script type="text/javascript" src="js/main.js"></script>
-    
+
 </head>
+
 <body>
-        
+    <div class="container">
+        <a class="titulo" href="https://warezcdn.com/index.php" target="_blank">Dicas de Filmes e Séries</a>
+        <a id="subtitulo" href="https://warezcdn.com/index.php" target="_blank">Acesse o Banco de Dados de Filmes e
+            Séries</a>
+        <a class="imagem" href="https://warezcdn.com/index.php" target="_blank"><img src="./img/topfilmes.png"
+                width="500px" height="300px"></a>
+    </div>
+
     <header>
-    <div>
-        
+
         <nav class="capas-esquerda">
-            <div class="imagem"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU8Sw_OY0ty-j2lLRlDf5mv-GjQBxH-t_MAA&usqp=CAU"width="300px" height="300px"></div>
-                
-                <a href="https://www.adorocinema.com/filmes/filme-136316/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUxRQDMhYq9cnmFtOtwhIdI30yOT4s-EN_XQ&usqp=CAU" alt="Eternos" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/series/serie-27929/"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfnRWUeHZVDojPaFi-_7k1WpweS3Y1awJybQ&usqp=CAU" alt="Welcome to earth" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/filmes/filme-248437/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQR82WxINS8zuRidgwhYeFHHDjrVjRBJ42dA&usqp=CAU" alt="Ameaça Lunar" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/filmes/filme-198771/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrjXsFIQqVxq8m-wcGn49Mz2IstnkccL3HRw&usqp=CAU" alt="The Kings Man" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/filmes/filme-186636/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlja0c3kil4f8TXdPRwqA8r7kfxNP_REbNw&usqp=CAU" alt="Top Gun-Maverick" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/pesquisar/?q=vidro"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ddX8YD3rU2_-IX2EMWxupSo1cs87WZZgJQ&usqp=CAU" alt="Vidro" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/pesquisar/?q=liga+da+justi%C3%A7a+2022"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5gaVbqhEsiCD_QVbRxACvAwWixaQuBnC3QQ&usqp=CAU" alt="Liga da Justiça" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/filmes/filme-254164/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOH5G4f3z2DgGheVbfpsARKSX77GkdO2eHA&usqp=CAU" alt="O Manicômio" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/series/serie-24647/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WXfahDlHnk_j_G4tmUnDRtiNO9FveTTqYg&usqp=CAU" alt="Shadow" title="Clique para ver detalhes e sinopse">"</a>
-                <a href="https://www.adorocinema.com/series/serie-7330/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWdrxBQQZOLeDUIw9rGxzeFOdAJDLXp-GKQ&usqp=CAU" alt="The Walking Dead" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/series/serie-28534/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpG-mXK6EhWu28kt93o72zGSMboos1SP_Ffg&usqp=CAU" alt="Bem vindos ao Éden" title="Clique para ver detalhes e sinopse"></a>
-                <a href="https://www.adorocinema.com/series/serie-22302/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqi2lUy62QK92U01TBSa4uvTXgdJ2rmW6Wjg&usqp=CAU" alt="Lupin" title="Clique para ver detalhes e sinopse"></a>  
-             </div>
+
+            <a class="capa" href="https://www.adorocinema.com/filmes/filme-136316/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUxRQDMhYq9cnmFtOtwhIdI30yOT4s-EN_XQ&usqp=CAU"
+                    alt="Eternos" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/series/serie-27929/"><img
+                    src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfnRWUeHZVDojPaFi-_7k1WpweS3Y1awJybQ&usqp=CAU"
+                    alt="Welcome to earth" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/filmes/filme-248437/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQR82WxINS8zuRidgwhYeFHHDjrVjRBJ42dA&usqp=CAU"
+                    alt="Ameaça Lunar" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/filmes/filme-198771/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrjXsFIQqVxq8m-wcGn49Mz2IstnkccL3HRw&usqp=CAU"
+                    alt="The Kings Man" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/filmes/filme-186636/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlja0c3kil4f8TXdPRwqA8r7kfxNP_REbNw&usqp=CAU"
+                    alt="Top Gun-Maverick" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/pesquisar/?q=vidro"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ddX8YD3rU2_-IX2EMWxupSo1cs87WZZgJQ&usqp=CAU"
+                    alt="Vidro" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/pesquisar/?q=liga+da+justi%C3%A7a+2022"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5gaVbqhEsiCD_QVbRxACvAwWixaQuBnC3QQ&usqp=CAU"
+                    alt="Liga da Justiça" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a href="https://www.adorocinema.com/filmes/filme-254164/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOH5G4f3z2DgGheVbfpsARKSX77GkdO2eHA&usqp=CAU"
+                    alt="O Manicômio" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/series/serie-24647/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WXfahDlHnk_j_G4tmUnDRtiNO9FveTTqYg&usqp=CAU"
+                    alt="Shadow" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a href="https://www.adorocinema.com/series/serie-7330/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWdrxBQQZOLeDUIw9rGxzeFOdAJDLXp-GKQ&usqp=CAU"
+                    alt="The Walking Dead" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/series/serie-28534/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpG-mXK6EhWu28kt93o72zGSMboos1SP_Ffg&usqp=CAU"
+                    alt="Bem vindos ao Éden" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
+            <a class="capa" href="https://www.adorocinema.com/series/serie-22302/"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqi2lUy62QK92U01TBSa4uvTXgdJ2rmW6Wjg&usqp=CAU"
+                    alt="Lupin" title="Clique para ver detalhes e sinopse" width="400" height="500"></a>
 
         </nav>
-    </div>
 
-    <form class="formulario" method="POST">
-        <p>Envie uma mensagem ou sugestão preenchendo o formulário abaixo</p>
-    <div class="field">
-        <label for="nome">Seu Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
-    </div>
 
-    <div class="field">
-        <label for="telefone">Seu telefone:</label>
-        <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone">
-    </div> 
+        <form class="formulario" method="POST">
+            <p>Envie uma mensagem ou sugestão preenchendo o formulário abaixo</p>
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
 
-    <div class="field">
-        <label for="email">Seu e-mail:</label>
-        <input type="text" id="email" name="email" placeholder="Digite seu e-mail*" required>
-    </div>
+            <div class="field">
+                <label for="telefone">Seu telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone">
+            </div>
 
-    <div class="field">
-        <label for="mensagem">Sua mensagem:</label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem*" required></textarea>
-    </div>
+            <div class="field">
+                <label for="email">Seu e-mail:</label>
+                <input type="text" id="email" name="email" placeholder="Digite seu e-mail*" required>
+            </div>
 
-    <input type="submit" name="acao" value="Enviar">
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem*" required></textarea>
+            </div>
+
+            <input id="btn" type="submit" name="acao" value="Enviar">
         </form>
 
 

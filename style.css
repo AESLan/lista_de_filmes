@@ -1,35 +1,48 @@
-a{
-    margin: 10px;
-    
-
-}
-
-.titulo{
-    font-size: 60px;
-    position:fixed;
-    left: 25%;
-    background-color:#000000;
-    text-shadow: 5px 5px 5px rgb(12, 12, 12);
-
-}
-
 body{
     background-color: rgb(8, 8, 8);
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+}
+
+.titulo{
+    position: fixed;
+    font-size: 60px;
+    text-shadow: 4px 2px 2px rgb(255, 255, 255);
 
 }
+
+#subtitulo{
+    padding-top: 6em;
+    position: fixed;
+    font-size: 28px;
+    color: #ccc;
+    z-index: 1;
+    
+ 
+    
+}
+
+#subtitulo:hover{
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
+}
+
 
 .capas-esquerda{
     display: flex;
     flex-direction: column;
+    position: relative;
 
 }
 
+
 .imagem{
     position:fixed;
-    left:35%;
-    top: 30%;
+    left:32%;
+    top: 40%;
+
 
 }
 
@@ -43,4 +56,24 @@ body{
 .formulario p{
     color: azure;
     left: 40%;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#nome{
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .imagem{position: relative;
+    
+    }
+    
+
+ 
 }
